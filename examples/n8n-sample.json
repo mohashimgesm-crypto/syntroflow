@@ -1,0 +1,29 @@
+{
+  "name": "New email -> Slack alert",
+  "nodes": [
+    {
+      "name": "On new email",
+      "type": "n8n-nodes-base.emailReadImap",
+      "parameters": { "mailbox": "INBOX", "postProcessAction": "read" },
+      "position": [240, 300]
+    },
+    {
+      "name": "Is from VIP?",
+      "type": "n8n-nodes-base.if",
+      "parameters": {
+        "conditions": { "string": [{ "value1": "={{$json.from}}", "value2": "vip@client.com" }] }
+      },
+      "position": [520, 300]
+    },
+    {
+      "name": "Notify team",
+      "type": "n8n-nodes-base.slack",
+      "parameters": { "channel": "#sales", "text": "New VIP email received" },
+      "position": [820, 220]
+    }
+  ],
+  "connections": {
+    "On new email": { "main": [[{ "node": "Is from VIP?", "type": "main", "index": 0 }]] },
+    "Is from VIP?": { "main": [[{ "node": "Notify team", "type": "main", "index": 0 }]] }
+  }
+}

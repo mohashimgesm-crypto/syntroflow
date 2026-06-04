@@ -1,0 +1,22 @@
+<svg width="560" height="180" viewBox="0 0 560 180" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Syntroflow (dark)</title>
+<desc>Syntroflow logo for dark backgrounds.</desc>
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+</defs>
+<circle cx="44" cy="50" r="4" fill="#94a3b8"/><circle cx="66" cy="120" r="5" fill="#94a3b8"/>
+<circle cx="52" cy="84" r="3.5" fill="#94a3b8"/><circle cx="90" cy="42" r="4" fill="#94a3b8"/>
+<circle cx="80" cy="142" r="3.5" fill="#94a3b8"/><circle cx="108" cy="72" r="5" fill="#94a3b8"/>
+<circle cx="118" cy="112" r="4" fill="#94a3b8"/><circle cx="98" cy="94" r="3" fill="#94a3b8"/>
+<circle cx="132" cy="54" r="3.5" fill="#94a3b8"/><circle cx="138" cy="132" r="4" fill="#94a3b8"/>
+<path d="M146 50 C 176 60 191 80 204 90" fill="none" stroke="#5eead4" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M152 74 C 176 80 191 86 204 90" fill="none" stroke="#5eead4" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M152 98 C 176 96 192 92 204 90" fill="none" stroke="#5eead4" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M149 120 C 176 112 192 98 204 90" fill="none" stroke="#5eead4" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M145 142 C 178 130 192 100 204 90" fill="none" stroke="#5eead4" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="204" y1="90" x2="258" y2="90" stroke="#2dd4bf" stroke-width="5.5" stroke-linecap="round" marker-end="url(#ar)"/>
+<text x="292" y="104" font-size="46" letter-spacing="-1" font-family="'Helvetica Neue',Arial,sans-serif" font-weight="600" fill="#f1f5f9"><tspan>syntro</tspan><tspan fill="#2dd4bf">flow</tspan></text>
+<text x="294" y="134" font-size="17" font-family="'Helvetica Neue',Arial,sans-serif" fill="#94a3b8">order from entropy</text>
+</svg>
