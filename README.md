@@ -87,7 +87,7 @@ The realistic ceiling for automatic translation is roughly **90% of nodes; the l
 - **Compatibility Report** — a line-by-line list of exactly what was translated, what was approximated, and what needs manual attention before you ship
 - A web UI, batch conversion, and team features for agencies
 
-→ Join the waitlist: **https://syntroflow.dev**
+→ Join the waitlist: **https://mohashimgesm-crypto.github.io/syntroflow/**
 
 ## Contributing
 

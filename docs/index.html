@@ -411,7 +411,7 @@
   // ---- waitlist handling ----
   // To collect emails for real, set FORM_ENDPOINT to a Formspree / your-API URL.
   // Leave empty to run in demo mode (shows the success state without sending).
-  const FORM_ENDPOINT = "";
+  const FORM_ENDPOINT = "https://formspree.io/f/mjgdvadw";
 
   function wireForm(inputId, btnId, fieldId, successId){
     const input=document.getElementById(inputId);
@@ -422,7 +422,7 @@
       const v=(input.value||"").trim();
       if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v)){ input.focus(); input.style.borderColor="#f87171"; return; }
       if(FORM_ENDPOINT){
-        fetch(FORM_ENDPOINT,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({email:v})}).catch(()=>{});
+        fetch(FORM_ENDPOINT,{method:"POST",headers:{"Content-Type":"application/json","Accept":"application/json"},body:JSON.stringify({email:v})}).catch(()=>{});
       }
       field.style.display="none";
       ok.classList.add("show");
